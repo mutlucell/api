@@ -1,0 +1,29 @@
+{
+    "name": "mutlucell/api",
+    "type": "library",
+    "description": "Mutlucell-api is the PHP library for sending sms through internet ",
+    "keywords": ["mutlucell","mutlucell.com.tr","sms", "api"],
+    "homepage": "https://www.mutlucell.com.tr/",
+    "minimum-stability":"dev",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mutlucell.com.tr",
+            "email": "info@mutlusantral.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "git://github.com/mutlucell/api/blob/master/Mutlucell.php"
+        }
+    ]
+    ,
+    "autoload": {
+        "files": ["Mutlucell.php"]
+    }
+
+}
